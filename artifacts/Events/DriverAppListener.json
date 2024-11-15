@@ -1,0 +1,15 @@
+{
+	"id": "7a7ef4c4-1d52-ee11-9937-0022489a57c0",
+	"createdAt": "2023-09-13T10:10:31.730Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"name": "DriverAppListener",
+	"description": "Listens to event to notify Truck drivers",
+	"eventAction": "AppEvent",
+	"scriptId": null,
+	"jobId": null,
+	"workflowId": null,
+	"package": "ec25aec2-f55d-ee11-9937-0022489e2e97",
+	"script": null,
+	"job": null,
+	"workflow": null
+}

@@ -1,0 +1,8 @@
+.smallerBox{
+    border: 1px solid;
+    border-color: rgb(134, 121, 121);
+    padding: 0.7rem 2.5rem;
+    margin-left: 1.5rem;
+    border-radius: 5px;
+    background-color: white;
+}

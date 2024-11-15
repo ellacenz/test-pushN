@@ -1,0 +1,27 @@
+{
+	"id": "fa254557-6458-ee11-9937-0022489a57c0",
+	"createdAt": "2023-09-21T09:50:48.916Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"globalScripts": [
+		{
+			"id": "EFDBBCBE-4D58-EE11-9937-0022489A57C0",
+			"name": "test_push_notification - vapid_keys",
+			"contextname": "vapid_keys"
+		}
+	],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "getPublicKey",
+	"ver": "24.11.15.0818",
+	"description": null,
+	"folder": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "a167598c-a442-ee11-b8f0-002248a2f7be",
+	"package": "ec25aec2-f55d-ee11-9937-0022489e2e97"
+}

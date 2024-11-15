@@ -1,0 +1,16 @@
+
+var options = {
+    data: {
+        "first_name": inSimpleFormfirst_name2.getValue(),
+        "last_name": inSimpleFormlast_name2.getValue(),
+        "plate_no": inSimpleFormplate_no2.getValue(),
+        "customer_name": inSimpleFormcustomer_name2.getValue(),
+        "customer_class": oSelectClassRegister.getSelectedKey(),
+        "status": "ARRIVED"
+    }
+};
+
+apioAPIRegisterDriver(options); 
+modelSimpleFormRegister.setData({});
+oDialogRegisterDriver.close();
+sap.m.MessageToast.show("Sucessfully Registered!");

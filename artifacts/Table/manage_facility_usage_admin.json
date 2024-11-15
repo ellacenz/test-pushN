@@ -1,0 +1,75 @@
+{
+	"id": "2d9754a1-4e4d-ee11-9937-0022489a57c0",
+	"createdAt": "2023-09-07T07:17:42.416Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"fields": [
+		{
+			"id": "3709aa16-7e7a-412d-c88c-1022f3154987",
+			"fieldName": "driver_id",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"isNullable": false,
+			"description": "System unique id for logged in users"
+		},
+		{
+			"id": "e627b7f5-fb2b-4152-9033-e48a80110570",
+			"fieldName": "first_name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "32bd59d2-667b-4976-f07a-ecb8adfce6fa",
+			"fieldName": "last_name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "542243a7-f8ef-4862-f189-4f10decefed1",
+			"fieldName": "plate_no",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f93e2925-0781-49a3-a3e3-f5db48e391f9",
+			"fieldName": "customer_name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "0209377a-d0e5-4d99-d936-737deb2b9ecc",
+			"fieldName": "status",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "WAITING, USING_FACILITY, FINISHED",
+			"isNullable": true
+		},
+		{
+			"id": "8fd939bc-1576-47e6-b0db-d33b01fc08de",
+			"fieldName": "arrival_time",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "8fea14ea-2866-4d28-8689-32864fd19fe3",
+			"fieldName": "finished_time",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "manage_facility_usage_admin",
+	"description": "List of Truck drivers on the queue",
+	"ver": "23.9.28.1423",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "ec25aec2-f55d-ee11-9937-0022489e2e97",
+	"rolesRead": [],
+	"rolesWrite": []
+}

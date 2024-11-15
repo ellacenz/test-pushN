@@ -1,0 +1,19 @@
+{
+	"id": "83b4aaec-1d52-ee11-9937-0022489a57c0",
+	"createdAt": "2023-09-13T10:11:38.346Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"name": "NotifyDriverTrigger",
+	"description": "Trigger web push notification to driver app",
+	"eventAction": "ScriptEvent",
+	"scriptId": "224f636f-86a2-ef11-88cf-0022489c9842",
+	"jobId": null,
+	"workflowId": null,
+	"package": "ec25aec2-f55d-ee11-9937-0022489e2e97",
+	"script": {
+		"id": "224f636f-86a2-ef11-88cf-0022489c9842",
+		"name": "NotifyDriver",
+		"ver": "24.11.15.0921"
+	},
+	"job": null,
+	"workflow": null
+}

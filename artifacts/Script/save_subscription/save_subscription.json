@@ -1,0 +1,27 @@
+{
+	"id": "570123e2-6658-ee11-9937-0022489a57c0",
+	"createdAt": "2023-09-21T10:09:00.900Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "E2230BCC-4C58-EE11-9937-0022489A57C0",
+			"name": "push_subscription_register",
+			"contextname": "push_subscription_register"
+		}
+	],
+	"apis": [],
+	"name": "save_subscription",
+	"ver": "23.9.25.1011",
+	"description": null,
+	"folder": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "a167598c-a442-ee11-b8f0-002248a2f7be",
+	"package": "ec25aec2-f55d-ee11-9937-0022489e2e97"
+}

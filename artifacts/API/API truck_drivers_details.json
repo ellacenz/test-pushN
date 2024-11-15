@@ -1,0 +1,349 @@
+{
+	"id": "765bffe2-224b-ee11-9937-0022489a57c0",
+	"createdAt": "2023-09-04T12:59:31.453Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "22a5ee06-9500-4a62-eaed-7161f9d41d8a",
+			"path": "/truck_drivers_details",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "truck_drivers_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "d19b030c-94e3-488d-828a-d86915bab7a9",
+			"path": "/truck_drivers_details",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "truck_drivers_details"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "truck_drivers_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "348a65b0-317c-4efd-829f-dd759e06ecdc",
+			"path": "/truck_drivers_details",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "truck_drivers_details"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "truck_drivers_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "58c1f8f1-38c3-4d6b-95b4-13dc117f5d90",
+			"path": "/truck_drivers_details",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "truck_drivers_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "f6e3da03-11dd-4340-937c-d0ff497e3910",
+			"path": "/truck_drivers_details/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "d74b93a8-96cc-4a62-afe6-fce113673015",
+			"name": "truck_drivers_details",
+			"properties": [
+				{
+					"id": "95f1d2bf-2999-42cd-8349-69c03087bc72",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "c6b0d864-b153-4415-e570-2a1940faf8de",
+					"parent": "",
+					"name": "first_name",
+					"objectType": "string"
+				},
+				{
+					"id": "bcf2c119-8e29-4c2c-f4c4-4ecdc17c9a44",
+					"parent": "",
+					"name": "last_name",
+					"objectType": "string"
+				},
+				{
+					"id": "7ef9a5ec-9807-4804-aec6-901b4410eb8c",
+					"parent": "",
+					"name": "plate_no",
+					"objectType": "string"
+				},
+				{
+					"id": "a62dde53-e92d-43fb-d6d6-4ea08be53a32",
+					"parent": "",
+					"name": "customer_name",
+					"objectType": "string"
+				},
+				{
+					"id": "da3991d4-15c3-46f4-f9ba-b1961f48d039",
+					"parent": "",
+					"name": "customer_class",
+					"objectType": "string"
+				},
+				{
+					"id": "3ddc8864-f617-4125-b13b-a3413456f6d3",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "430494c9-bd53-421d-c809-ec61933c8224",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created By",
+					"objectType": "string"
+				},
+				{
+					"id": "5855cdbc-060a-492f-9d00-6cc2e54aa306",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "0246d9d8-2610-4a41-f5ff-264a7650755f",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated By",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "9a3a2436-d205-459b-f118-306d670c675c",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "324de0d6-9cfa-4b51-8025-854fa9ec591b",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "bd2644f2-46cb-47c8-ef4a-64eeccf8caa6",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "f13fb28c-25fb-493c-f7da-6c5cb6793b6a",
+			"name": "count",
+			"properties": [
+				{
+					"id": "726289d1-e6c5-4ea6-e89d-ba304d271099",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "API truck_drivers_details",
+	"endpoint": "/api/entity",
+	"ver": "23.9.28.1246",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "ec25aec2-f55d-ee11-9937-0022489e2e97",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

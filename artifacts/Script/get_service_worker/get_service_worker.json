@@ -1,0 +1,21 @@
+{
+	"id": "96a44512-2f59-ee11-9937-0022489a57c0",
+	"createdAt": "2023-09-22T10:02:00.993Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "get_service_worker",
+	"ver": "23.9.22.1045",
+	"description": null,
+	"folder": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "a167598c-a442-ee11-b8f0-002248a2f7be",
+	"package": "ec25aec2-f55d-ee11-9937-0022489e2e97"
+}

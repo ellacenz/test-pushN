@@ -1,0 +1,20 @@
+const context = oEvent.oSource.getBindingContext();  
+
+// Get Entire Model
+const data = context.getObject();
+console.log(data)
+
+// var options = {
+//     data: data
+// };
+
+// apiAPINotifyDriver(options).then((res)=> console.log(res))
+
+var payload = {
+    process:"NotifyDriver",
+    data: data
+}
+
+triggerEventTrigger(payload); //Triggers the background script that sends notification to drivers
+
+sap.m.MessageToast.show("Driver has been notified!");

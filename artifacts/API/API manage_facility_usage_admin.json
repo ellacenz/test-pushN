@@ -1,0 +1,386 @@
+{
+	"id": "154b52b9-4e4d-ee11-9937-0022489a57c0",
+	"createdAt": "2023-09-07T07:18:21.703Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "f5ec400f-836b-4b4a-f2b3-32b496207b40",
+			"path": "/manage_facility_usage_admin",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "manage_facility_usage_admin"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "08ce01af-08b1-4eb5-cc48-204db7fef180",
+			"path": "/manage_facility_usage_admin",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "manage_facility_usage_admin"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "manage_facility_usage_admin"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "39f89891-7af0-4b31-cb26-500f2a1b4f50",
+			"path": "/manage_facility_usage_admin",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "manage_facility_usage_admin"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "manage_facility_usage_admin"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "8316de7f-57e1-40ca-ca0d-071300c4cb40",
+			"path": "/manage_facility_usage_admin",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "manage_facility_usage_admin"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "23fa88e4-3ce0-4b24-c60a-33e86d3e6419",
+			"path": "/manage_facility_usage_admin/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "4bf012f4-2b48-4c6e-8b1e-fe358037a0eb",
+			"name": "manage_facility_usage_admin",
+			"properties": [
+				{
+					"id": "d6d9b71f-795e-428b-ef8e-c4c5bbb5e74c",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "b00d09ae-7207-432a-9217-4535a5557ce8",
+					"parent": "",
+					"name": "driver_id",
+					"objectType": "uuid"
+				},
+				{
+					"id": "edc925d7-de03-42b8-9861-bfd0791c33c4",
+					"parent": "",
+					"name": "first_name",
+					"objectType": "string"
+				},
+				{
+					"id": "9e81edb9-29ab-4402-fd21-34b80b50be89",
+					"parent": "",
+					"name": "last_name",
+					"objectType": "string"
+				},
+				{
+					"id": "438d2662-bbb4-414c-8802-fff6186814ad",
+					"parent": "",
+					"name": "plate_no",
+					"objectType": "string"
+				},
+				{
+					"id": "287a55e8-3c53-424a-fe13-c775f908ca7f",
+					"parent": "",
+					"name": "customer_name",
+					"objectType": "string"
+				},
+				{
+					"id": "02e7f1b1-0717-4f8d-e32d-339d2b929a14",
+					"parent": "",
+					"name": "customer_class",
+					"objectType": "string"
+				},
+				{
+					"id": "bb77d9e6-9ea4-450e-9599-e23a223fba2b",
+					"parent": "",
+					"name": "status",
+					"description": "WAITING, USING_FACILITY, FINISHED",
+					"objectType": "string"
+				},
+				{
+					"id": "825469e4-b811-476a-ade7-2ae823a5aee5",
+					"parent": "",
+					"name": "weight_carried",
+					"objectType": "string"
+				},
+				{
+					"id": "b3e797cf-4a78-44fe-cf2c-8cb21511a0b1",
+					"parent": "",
+					"name": "position_on_queue",
+					"objectType": "string"
+				},
+				{
+					"id": "c585597a-7e4b-48f0-97b9-ba10abea7b0f",
+					"parent": "",
+					"name": "arrival_time",
+					"objectType": "string"
+				},
+				{
+					"id": "75542245-6b88-4040-c013-47397d9c7f8e",
+					"parent": "",
+					"name": "finished_time",
+					"objectType": "string"
+				},
+				{
+					"id": "3e6a42d9-9760-4d39-acbd-949b7a951dc0",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "55fd8c8f-f410-4949-f9d6-ce18584ff29a",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created By",
+					"objectType": "string"
+				},
+				{
+					"id": "37c64764-b06c-49d1-e23f-8d9d86410eaa",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "9b70952a-4299-4e0f-d345-6d0aa391b432",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated By",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "2071363b-54c9-41c3-8600-72fdefd876c8",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "badc6d61-baaa-48ea-a269-067db279e3fb",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "8e625ca8-42ef-4754-81ae-265bbd4a775c",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "a90af732-10bf-4c1e-934d-5b35fb68d076",
+			"name": "count",
+			"properties": [
+				{
+					"id": "d7f644fe-5861-47c2-8a2b-fc063282a3ac",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "API manage_facility_usage_admin",
+	"endpoint": "/api/entity",
+	"ver": "23.9.28.1217",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "ec25aec2-f55d-ee11-9937-0022489e2e97",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

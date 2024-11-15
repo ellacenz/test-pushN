@@ -1,0 +1,34 @@
+{
+	"id": "224f636f-86a2-ef11-88cf-0022489c9842",
+	"createdAt": "2024-11-14T12:46:16.000Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "8339672A-F9A0-EF11-88D0-000D3AB3EBB8",
+			"name": "web-push",
+			"contextname": "webpush",
+			"path": "/home/planet9/ext-disk/npm-serverscript/node_modules/web-push"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "E2230BCC-4C58-EE11-9937-0022489A57C0",
+			"name": "push_subscription_register",
+			"contextname": "push_subscription_register"
+		}
+	],
+	"apis": [],
+	"name": "NotifyDriver",
+	"ver": "24.11.15.0921",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "a167598c-a442-ee11-b8f0-002248a2f7be",
+	"package": "ec25aec2-f55d-ee11-9937-0022489e2e97"
+}

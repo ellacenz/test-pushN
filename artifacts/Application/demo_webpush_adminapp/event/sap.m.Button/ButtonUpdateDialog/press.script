@@ -1,0 +1,18 @@
+
+var options = {
+    parameters: {
+        "where": JSON.stringify({id: selectedUser.id}) // Optional 
+    },
+    data: {
+        "first_name": inSimpleFormfirst_name1.getValue(),
+        "last_name": inSimpleFormlast_name1.getValue(),
+        "plate_no": inSimpleFormplate_no1.getValue(),
+        "customer_name": inSimpleFormcustomer_name1.getValue(),
+        "customer_class": oSelectClass1.getSelectedKey()
+    }
+};
+
+apioAPIUpdateDriverDetails(options);  
+modelSimpleForm1.setData({});
+
+sap.m.MessageToast.show("Sucessfully Updated!");

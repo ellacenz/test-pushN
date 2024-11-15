@@ -1,0 +1,22 @@
+
+
+var options = {
+    data: {
+        "first_name": inSimpleFormfirst_name.getValue(),
+        "last_name": inSimpleFormlast_name.getValue(),
+        "plate_no": inSimpleFormplate_no.getValue(),
+        "customer_name": inSimpleFormcustomer_name.getValue(),
+        "customer_class": oSelectClass.getSelectedKey()
+    }
+};
+
+if (actionType == "CREATE"){
+apioAPICreateNewUser(options); //Save Data
+
+}
+//Clear form
+clearForm([inSimpleFormfirst_name, inSimpleFormlast_name,inSimpleFormplate_no, inSimpleFormcustomer_name]);
+oSelectClass.setSelectedKey("")
+
+sap.m.MessageToast.show("Sucessfully Created!");
+ModalCreateUser.hide();

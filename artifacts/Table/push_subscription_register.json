@@ -1,0 +1,49 @@
+{
+	"id": "e2230bcc-4c58-ee11-9937-0022489a57c0",
+	"createdAt": "2023-09-21T07:02:18.270Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"fields": [
+		{
+			"id": "f7ef9a0e-d754-4981-9954-7080120ed831",
+			"fieldName": "endpoint",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "97bb91fa-435f-4707-9cab-6c28912e7d67",
+			"fieldName": "expirationTime",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "71e89a86-006e-4029-d2f3-a83fc37a637f",
+			"fieldName": "auth",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "2e0e4743-fc24-4c67-bdff-e8a511141d94",
+			"fieldName": "p256dh",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "1f0da026-1448-45a5-bc78-c9c6d2789d1b",
+			"fieldName": "user_id",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "push_subscription_register",
+	"description": "Contains push subscriptions of different users of the Push Notification Demo App",
+	"ver": "23.9.28.1423",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "ec25aec2-f55d-ee11-9937-0022489e2e97",
+	"rolesRead": [],
+	"rolesWrite": []
+}

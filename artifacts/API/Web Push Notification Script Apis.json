@@ -1,0 +1,241 @@
+{
+	"id": "443fc4a3-5742-ee11-b8f0-002248a2f7be",
+	"createdAt": "2023-08-24T08:24:28.220Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "460b3b75-3e57-4053-aa10-8182b564f611",
+			"method": "POST",
+			"path": "/getPublicKey",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "8543d65e-df9f-454e-ef52-23fc93858ffe",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "ddddddbe-7f90-4a67-d776-b66b8538ee7c",
+							"name": "public key",
+							"objectType": "object"
+						}
+					]
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "fa254557-6458-ee11-9937-0022489a57c0"
+		},
+		{
+			"id": "58718917-b968-4462-de1e-c6219044160c",
+			"method": "POST",
+			"path": "/saveSubcription",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "46e3d6df-ab12-4e27-dd04-840ca1c5abc4",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "8ddd861d-00e6-4438-d39d-449404487718",
+							"name": "subscription",
+							"objectType": "object"
+						}
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "object",
+					"items": [],
+					"name": ""
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "570123e2-6658-ee11-9937-0022489a57c0"
+		},
+		{
+			"id": "57304367-0708-46db-90c0-fb028e450314",
+			"method": "GET",
+			"path": "/get_service_worker",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "2b0c7536-7dad-4ae5-f547-04b988afb496",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "e173728f-8c0d-41b1-c390-fdaf5892ff67",
+							"name": "",
+							"objectType": "object"
+						}
+					]
+				}
+			],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "96a44512-2f59-ee11-9937-0022489a57c0"
+		},
+		{
+			"id": "405f3271-93e4-43c6-f21b-132a3da9350f",
+			"method": "POST",
+			"path": "/notifyDriver",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "8cd07340-835b-4ca1-e770-a3cbc295ad31",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": [
+						{
+							"id": "b8418232-9b5b-4e55-a94a-02f54f06aa00",
+							"name": "",
+							"objectType": "object"
+						}
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "object",
+					"items": []
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "224f636f-86a2-ef11-88cf-0022489c9842"
+		}
+	],
+	"definitions": [
+		{
+			"id": "eeacfb1a-feb5-44a1-d4d9-413cc30921ae",
+			"name": "subscription",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "daa793c8-6606-40bf-c660-f50c8fa6a3b2",
+					"name": "endpoint",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "f290d3a3-2e51-4c36-974e-9db58791301c",
+					"name": "expirationTime",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "f0b4e708-224e-4de8-cac4-207489685c0a",
+					"name": "auth",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "66f98a71-56c2-44b1-a09c-3a2243b9ca55",
+					"name": "p256dh",
+					"parent": "",
+					"description": "",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		},
+		{
+			"id": "73971fc6-44e4-4598-9853-477a4b8c9405",
+			"name": "public key",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "4f3e8055-ebc2-4816-84de-a1107606fb7d",
+					"name": "pub_key",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "Web Push Notification Script Apis",
+	"endpoint": "/public/serverscript/webpushnotificationscriptapis",
+	"ver": "24.11.14.1416",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": true,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "ec25aec2-f55d-ee11-9937-0022489e2e97",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

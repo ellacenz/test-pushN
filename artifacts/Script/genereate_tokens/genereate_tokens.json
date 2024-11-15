@@ -1,0 +1,28 @@
+{
+	"id": "ec351307-8b63-ee11-9937-000d3ade8894",
+	"createdAt": "2023-10-05T14:25:27.573Z",
+	"createdBy": "qateam",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "8339672A-F9A0-EF11-88D0-000D3AB3EBB8",
+			"name": "web-push",
+			"contextname": "webpush",
+			"path": "/home/planet9/ext-disk/npm-serverscript/node_modules/web-push"
+		}
+	],
+	"entitySets": [],
+	"apis": [],
+	"name": "genereate_tokens",
+	"ver": "24.11.12.1326",
+	"description": null,
+	"folder": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "a167598c-a442-ee11-b8f0-002248a2f7be",
+	"package": "ec25aec2-f55d-ee11-9937-0022489e2e97"
+}

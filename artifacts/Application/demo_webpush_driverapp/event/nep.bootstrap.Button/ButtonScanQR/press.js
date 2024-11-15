@@ -1,0 +1,2 @@
+oDialogScan.open();
+startScan();
